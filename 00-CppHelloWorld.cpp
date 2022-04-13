@@ -1,11 +1,6 @@
-#include<iostream>
-#include<fstream>
-
-using namespace std;
+#include <iostream>
 
 int main() {
-	std::ofstream file("output.txt");
-	file << "hello world";
-	file.close();
-	return 0;
+    std::cout << "Hello World!";
+    return 0;
 }
